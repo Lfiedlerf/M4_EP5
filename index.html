@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M4_EP5: Callbacks en JS</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Ejercicio: Funciones Callback en JS</h1>
+        <p>Abre la <strong>Consola (F12)</strong> para ver los detalles técnicos de la ejecución.</p>
+
+        <div class="card">
+            <h2>1. Validación de Número</h2>
+            <p>Solicita un dato y valida vía callback si es numérico.</p>
+            <button onclick="ejecutarEjercicio1()">Probar Validación</button>
+        </div>
+
+        <div class="card">
+            <h2>2. Suma Impares (Delay 5s)</h2>
+            <p>Calcula impares y avisa tras 5 segundos.</p>
+            <input type="number" id="num-ej2" placeholder="Ingresa N (ej: 10)">
+            <button onclick="ejecutarEjercicio2()">Calcular con Delay</button>
+            <div id="status-ej2" class="status">Esperando...</div>
+        </div>
+
+        <div class="card">
+            <h2>3. Sumatorias Sucesivas</h2>
+            <p>Acumula sumas (1 + 1+2 + 1+2+3...). Error si > 1000.</p>
+            <input type="number" id="num-ej3" placeholder="Ingresa N (ej: 5)">
+            <button onclick="ejecutarEjercicio3()">Calcular Sucesión</button>
+            <div id="res-ej3" class="status">Resultado aquí</div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
